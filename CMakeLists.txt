@@ -8,7 +8,7 @@ set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 set(CMAKE_INSTALL_RPATH "${ORIGIN}")
 
 if(APPLE)
-    list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML")
+    list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew/Cellar/sfml@2/2.6.2_1/")
 endif()
 
 find_package(SFML 2.6.2 COMPONENTS system window graphics audio REQUIRED)

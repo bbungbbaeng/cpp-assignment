@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator"
+CMAKE_SOURCE_DIR = "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build"
+CMAKE_BINARY_DIR = "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/iaps.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/iaps.dir/codegen:
 .PHONY : CMakeFiles/iaps.dir/codegen
 
 CMakeFiles/iaps.dir/src/main.cpp.o: CMakeFiles/iaps.dir/flags.make
-CMakeFiles/iaps.dir/src/main.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/main.cpp
+CMakeFiles/iaps.dir/src/main.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/main.cpp
 CMakeFiles/iaps.dir/src/main.cpp.o: CMakeFiles/iaps.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iaps.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/main.cpp.o -MF CMakeFiles/iaps.dir/src/main.cpp.o.d -o CMakeFiles/iaps.dir/src/main.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iaps.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/main.cpp.o -MF CMakeFiles/iaps.dir/src/main.cpp.o.d -o CMakeFiles/iaps.dir/src/main.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/main.cpp"
 
 CMakeFiles/iaps.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/iaps.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/main.cpp" > CMakeFiles/iaps.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/main.cpp" > CMakeFiles/iaps.dir/src/main.cpp.i
 
 CMakeFiles/iaps.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/iaps.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/main.cpp" -o CMakeFiles/iaps.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/main.cpp" -o CMakeFiles/iaps.dir/src/main.cpp.s
 
 CMakeFiles/iaps.dir/src/screen/Screen.cpp.o: CMakeFiles/iaps.dir/flags.make
-CMakeFiles/iaps.dir/src/screen/Screen.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp
+CMakeFiles/iaps.dir/src/screen/Screen.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/screen/Screen.cpp
 CMakeFiles/iaps.dir/src/screen/Screen.cpp.o: CMakeFiles/iaps.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iaps.dir/src/screen/Screen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/screen/Screen.cpp.o -MF CMakeFiles/iaps.dir/src/screen/Screen.cpp.o.d -o CMakeFiles/iaps.dir/src/screen/Screen.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iaps.dir/src/screen/Screen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/screen/Screen.cpp.o -MF CMakeFiles/iaps.dir/src/screen/Screen.cpp.o.d -o CMakeFiles/iaps.dir/src/screen/Screen.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/screen/Screen.cpp"
 
 CMakeFiles/iaps.dir/src/screen/Screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/iaps.dir/src/screen/Screen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp" > CMakeFiles/iaps.dir/src/screen/Screen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/screen/Screen.cpp" > CMakeFiles/iaps.dir/src/screen/Screen.cpp.i
 
 CMakeFiles/iaps.dir/src/screen/Screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/iaps.dir/src/screen/Screen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp" -o CMakeFiles/iaps.dir/src/screen/Screen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/screen/Screen.cpp" -o CMakeFiles/iaps.dir/src/screen/Screen.cpp.s
 
 CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: CMakeFiles/iaps.dir/flags.make
-CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp
+CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/Setting.cpp
 CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: CMakeFiles/iaps.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/iaps.dir/src/setting/Setting.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/setting/Setting.cpp.o -MF CMakeFiles/iaps.dir/src/setting/Setting.cpp.o.d -o CMakeFiles/iaps.dir/src/setting/Setting.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/iaps.dir/src/setting/Setting.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iaps.dir/src/setting/Setting.cpp.o -MF CMakeFiles/iaps.dir/src/setting/Setting.cpp.o.d -o CMakeFiles/iaps.dir/src/setting/Setting.cpp.o -c "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/setting/Setting.cpp"
 
 CMakeFiles/iaps.dir/src/setting/Setting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/iaps.dir/src/setting/Setting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp" > CMakeFiles/iaps.dir/src/setting/Setting.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/setting/Setting.cpp" > CMakeFiles/iaps.dir/src/setting/Setting.cpp.i
 
 CMakeFiles/iaps.dir/src/setting/Setting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/iaps.dir/src/setting/Setting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp" -o CMakeFiles/iaps.dir/src/setting/Setting.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/setting/Setting.cpp" -o CMakeFiles/iaps.dir/src/setting/Setting.cpp.s
 
 # Object files for target iaps
 iaps_OBJECTS = \
@@ -132,7 +132,7 @@ iaps: /opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-audio.2.6.2.dylib
 iaps: /opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-window.2.6.2.dylib
 iaps: /opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-system.2.6.2.dylib
 iaps: CMakeFiles/iaps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable iaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable iaps"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iaps.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/iaps.dir/clean:
 .PHONY : CMakeFiles/iaps.dir/clean
 
 CMakeFiles/iaps.dir/depend:
-	cd "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator" "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator" "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build" "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build" "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/build/CMakeFiles/iaps.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment" "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment" "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build" "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build" "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles/iaps.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/iaps.dir/depend
 

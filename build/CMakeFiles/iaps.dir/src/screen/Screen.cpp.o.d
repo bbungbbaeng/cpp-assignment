@@ -1,6 +1,6 @@
 CMakeFiles/iaps.dir/src/screen/Screen.cpp.o: \
-  /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/screen/Screen.hpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/screen/Screen.cpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/screen/Screen.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Window.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/System.hpp \

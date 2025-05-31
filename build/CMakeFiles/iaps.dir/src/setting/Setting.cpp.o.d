@@ -1,6 +1,6 @@
 CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: \
-  /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/setting/Setting.hpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/Setting.cpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/Setting.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Window.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/System.hpp \
@@ -1010,7 +1010,7 @@ CMakeFiles/iaps.dir/src/setting/Setting.cpp.o: \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/IndoorAirPollutionSimulator/src/setting/../screen/Screen.hpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/../screen/Screen.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \

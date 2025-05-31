@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/include" -isystem /opt/homebrew/Cellar/sfml@2/2.6.2_1/include
+CXX_INCLUDES = -I"/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/include" -isystem /opt/homebrew/Cellar/sfml@2/2.6.2_1/include
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 

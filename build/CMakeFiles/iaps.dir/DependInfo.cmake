@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/main.cpp" "CMakeFiles/iaps.dir/src/main.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/main.cpp.o.d"
-  "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/screen/Screen.cpp" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o.d"
-  "/Users/heron/Desktop/Coding/개인 작업/IndoorAirPollutionSimulator/src/setting/Setting.cpp" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o.d"
+  "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/main.cpp" "CMakeFiles/iaps.dir/src/main.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/main.cpp.o.d"
+  "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/screen/Screen.cpp" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o.d"
+  "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/setting/Setting.cpp" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
