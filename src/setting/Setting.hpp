@@ -6,7 +6,7 @@
 #include <vector>
 #include <array>
 
-enum class ScreenState;
+enum class ScreenState; // Forward declaration
 
 struct Vec3D {
     float x, y, z;
@@ -93,6 +93,27 @@ private:
     sf::View m_uiView;
 
     InputBox* m_activeInputBox;
+
+    // --- START: Added for Passages and Windows ---
+    struct OpeningDefinition {
+        std::array<Vec3D, 4> local_coords; // Coordinates relative to cuboid center (-0.5 to 0.5 on each axis)
+    };
+
+    std::vector<OpeningDefinition> m_passages_defs;
+    std::vector<OpeningDefinition> m_windows_defs;
+
+    // Relative size definitions (as fractions of normalized dimension 1.0)
+    static const float PASSAGE_RELATIVE_HEIGHT_FACTOR;
+    static const float PASSAGE_RELATIVE_WIDTH_FACTOR;
+    static const float WINDOW_RELATIVE_HEIGHT_FACTOR;
+    static const float WINDOW_RELATIVE_WIDTH_FACTOR;
+
+    void createPassage();
+    void removePassage();
+    void createWindow();
+    void removeWindow();
+    void drawOpenings(sf::RenderWindow& window);
+    // --- END: Added for Passages and Windows ---
 
     void setupUI();
     void setup3D();
