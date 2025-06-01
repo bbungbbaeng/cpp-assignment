@@ -1,3 +1,0 @@
-/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles/iaps.dir
-/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles/edit_cache.dir
-/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/build/CMakeFiles/rebuild_cache.dir
