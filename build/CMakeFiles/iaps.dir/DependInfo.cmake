@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/main.cpp" "CMakeFiles/iaps.dir/src/main.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/main.cpp.o.d"
   "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/screen/Screen.cpp" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/screen/Screen.cpp.o.d"
   "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/setting/Setting.cpp" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/setting/Setting.cpp.o.d"
+  "/Users/heron/Desktop/Coding/개인 작업/cpp-assignment/src/simulation/Simulation.cpp" "CMakeFiles/iaps.dir/src/simulation/Simulation.cpp.o" "gcc" "CMakeFiles/iaps.dir/src/simulation/Simulation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

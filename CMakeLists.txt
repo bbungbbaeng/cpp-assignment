@@ -26,6 +26,7 @@ add_executable(${NAME}
     src/main.cpp
     src/screen/Screen.cpp
     src/setting/Setting.cpp
+    src/simulation/Simulation.cpp
 )
 
 target_link_libraries(${NAME} PRIVATE sfml-system sfml-window sfml-graphics sfml-audio)

@@ -9,7 +9,7 @@
 enum class ScreenState {
     START,
     SETTING,
-    SIMULATION,
+    SIMULATION, // 이미 존재
     EXIT
 };
 
@@ -23,8 +23,9 @@ public:
     void render();
 
     ScreenState getNextState() const;
+    void setNextState(ScreenState state); // 추가 (일관성을 위해)
     bool isRunning() const;
-    void reset(); // reset 메서드 추가
+    void reset();
 
 private:
     sf::RenderWindow& m_window;

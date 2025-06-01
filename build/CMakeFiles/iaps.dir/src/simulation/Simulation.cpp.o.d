@@ -1,5 +1,6 @@
-CMakeFiles/iaps.dir/src/main.cpp.o: \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/main.cpp \
+CMakeFiles/iaps.dir/src/simulation/Simulation.cpp.o: \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/Simulation.cpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/Simulation.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Window.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/System.hpp \
@@ -1009,8 +1010,8 @@ CMakeFiles/iaps.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/Cellar/sfml@2/2.6.2_1/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/Setting.hpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/setting/../screen/Screen.hpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/../setting/Setting.hpp \
+  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/../setting/../screen/Screen.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
@@ -1063,9 +1064,27 @@ CMakeFiles/iaps.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/screen/Screen.hpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/Simulation.hpp \
-  /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/../setting/Setting.hpp \
   /Users/heron/Desktop/Coding/개인\ 작업/cpp-assignment/src/simulation/../screen/Screen.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h
